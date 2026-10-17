@@ -1,0 +1,18 @@
+# Participant data: never commit
+results/*
+!results/.gitkeep
+
+# Recordings and MATLAB data files
+*.mat
+*.edf
+*.bdf
+*.tdms
+
+# MATLAB autosave / backup files
+*.asv
+*.m~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
