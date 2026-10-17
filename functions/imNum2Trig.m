@@ -1,9 +1,7 @@
 function [condTrigger,stimTrigger] = imNum2Trig(imgName, ObjName)
 % IMNUM2TRIG  Trigger codes for one stimulus.
 %
-%   condTrigger  background type: 25 + (level-1)*2 + condition
-%                26 = level 1 scene, 27 = level 1 scramble,
-%                28 = level 2 scene, 29 = level 2 scramble
+%   condTrigger  background type: 26 = intact scene, 27 = scrambled scene
 %   stimTrigger  object identity, 1-25 (index in AllObjNames)
 
 AllObjNames = {'Bowl', 'Jar', 'Kettle', 'Mug', 'ShoulderBag',...

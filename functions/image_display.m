@@ -20,7 +20,7 @@ WaitSecs(p.fixation);
 imtex = Screen('MakeTexture', p.whandle, im_s);
 [imheight, imwidth, ~] = size(im_s);
 
-send_trigger(p, a, condTrigger); % background type (26-29)
+send_trigger(p, a, condTrigger); % background type (26 scene, 27 scramble)
 
 Screen('DrawTexture', p.whandle, imtex, [], ...
     [p.xCenter - imwidth/2, p.yCenter - imheight/2, ...

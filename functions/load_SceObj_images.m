@@ -1,7 +1,7 @@
 function [im, imnames] = load_SceObj_images(directory_im)
-% LOAD_SCEOBJ_IMAGES  Load the scene/object stimuli of one variation level.
+% LOAD_SCEOBJ_IMAGES  Load the scene/object stimuli.
 %
-% Each object has five files in <category>/<level>/:
+% Each object has five files in <category>/level_1/:
 %   <Object>_Scene.png       intact scene with the object
 %   <Object>_Scene_b.png     intact scene without the object
 %   <Object>_Scramble.png    scrambled scene with the object
@@ -26,7 +26,6 @@ imcounter = 0;
 
 categories = {'food', 'electronics', 'container', 'office_supply','home_decore'};
 levels = {'level_1'};
-% levels = {'level_2'};
 
 %% load images
 countcond = 0;
