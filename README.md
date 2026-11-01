@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1423261118.svg)](https://doi.org/10.5281/zenodo.23436832)
+
 # Scene–Object EEG Task
 
 A MATLAB / Psychtoolbox experiment for studying how scene context affects visual object recognition with EEG.
